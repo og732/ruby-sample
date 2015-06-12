@@ -1,1 +1,1 @@
-# rub-sample
+# ruby-sample
