@@ -9,7 +9,7 @@ describe Sample::Main do
       expect(@main.add(1, 1)).to eq 2
     end
     it 'unmatch' do
-      expect(@main.add(1, 1)).to eq 1
+      expect(@main.add(1, 1)).not_to eq 1
     end
   end
 
