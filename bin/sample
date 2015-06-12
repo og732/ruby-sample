@@ -1,0 +1,17 @@
+#!/usr/bin/env ruby
+
+MAGIC_COMMENT = <<-EOS
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+EOS
+
+base_dir = File.expand_path("#{File.dirname __FILE__}/../")
+$: << base_dir + '/lib'
+
+require 'rubygems'
+require 'sample'
+
+Version = Sample::VERSION
+
+main = Sample::Main.new(ARGV)
+print main.run()
