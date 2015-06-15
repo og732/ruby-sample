@@ -1,0 +1,10 @@
+general:
+  branches:
+    only:
+      - master
+machine:
+  timezone:
+    Asia/Tokyo
+  ruby:
+    version: 2.0.0-p353
+
